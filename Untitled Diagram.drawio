@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T01:59:32.700Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="liWEC_75T698bqQbL9Tk" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-27T02:04:15.455Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="9dSA5DyP7luVy9EgjfKt" version="15.5.9" type="github">
   <diagram name="Page-1" id="6133507b-19e7-1e82-6fc7-422aa6c4b21f">
     <mxGraphModel dx="3068" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -651,15 +651,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VlkqCi6GZGDcZJFE76wV-1" value="RtpVideoStreamReceiver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-950" y="1960" width="160" height="86" as="geometry" />
+          <mxGeometry x="-940" y="1974" width="160" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="VlkqCi6GZGDcZJFE76wV-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VlkqCi6GZGDcZJFE76wV-1">
+        <mxCell id="VlkqCi6GZGDcZJFE76wV-2" value="LossNotificationController" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VlkqCi6GZGDcZJFE76wV-1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="VlkqCi6GZGDcZJFE76wV-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="VlkqCi6GZGDcZJFE76wV-1">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="VlkqCi6GZGDcZJFE76wV-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VlkqCi6GZGDcZJFE76wV-1">
+        <mxCell id="VlkqCi6GZGDcZJFE76wV-4" value="rtp_rtcp_" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VlkqCi6GZGDcZJFE76wV-1">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="VlkqCi6GZGDcZJFE76wV-5" value="LossNotificationSender" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
@@ -726,6 +726,24 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-970" y="1950" as="sourcePoint" />
             <mxPoint x="-810" y="1950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlkqCi6GZGDcZJFE76wV-23" value="ModuleRtpRtcpImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="1968" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="VlkqCi6GZGDcZJFE76wV-24" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VlkqCi6GZGDcZJFE76wV-23">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VlkqCi6GZGDcZJFE76wV-25" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="VlkqCi6GZGDcZJFE76wV-23">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VlkqCi6GZGDcZJFE76wV-26" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VlkqCi6GZGDcZJFE76wV-23">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VlkqCi6GZGDcZJFE76wV-27" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="VlkqCi6GZGDcZJFE76wV-1" target="VlkqCi6GZGDcZJFE76wV-23">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-800" y="1950" as="sourcePoint" />
+            <mxPoint x="-640" y="1950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
