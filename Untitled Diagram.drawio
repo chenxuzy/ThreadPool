@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T03:37:20.272Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="7pFgUIGXW3-7zf3wLkBx" version="15.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-01T03:38:58.317Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="ZQNfGV_Ol8Unp-ly6YY1" version="15.6.3" type="github" pages="2">
   <diagram name="Page-1" id="6133507b-19e7-1e82-6fc7-422aa6c4b21f">
     <mxGraphModel dx="5268" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1718,7 +1718,7 @@
           <mxGeometry y="86" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KlemMpdigSnJsNv6NKip-138" value="VideoReceiveStream" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-2910" y="4550" width="340" height="268" as="geometry" />
+          <mxGeometry x="-2890" y="4528" width="340" height="268" as="geometry" />
         </mxCell>
         <mxCell id="oels3gxaZfTVbQsCMZHU-41" value="rtp_video_stream_receiver_:RtpVideoStreamReceiver" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KlemMpdigSnJsNv6NKip-138" vertex="1">
           <mxGeometry y="26" width="340" height="26" as="geometry" />
@@ -2101,7 +2101,7 @@
           <mxGeometry y="112" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BjOwXZ5_tBpsX8csRp6H-4" value="IncomingVideoStream" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-2330" y="4990" width="210" height="112" as="geometry" />
+          <mxGeometry x="-2270" y="4954" width="210" height="112" as="geometry" />
         </mxCell>
         <mxCell id="BjOwXZ5_tBpsX8csRp6H-5" value="callback_：VideoSinkInterface" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BjOwXZ5_tBpsX8csRp6H-4">
           <mxGeometry y="26" width="210" height="26" as="geometry" />
@@ -2140,10 +2140,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BjOwXZ5_tBpsX8csRp6H-18" value="VideoStreamDecoder" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-2570" y="4930" width="140" height="104" as="geometry" />
+          <mxGeometry x="-2570" y="4930" width="190" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="BjOwXZ5_tBpsX8csRp6H-61" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="BjOwXZ5_tBpsX8csRp6H-18" target="BjOwXZ5_tBpsX8csRp6H-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="170" y="20" as="sourcePoint" />
+            <mxPoint x="330" y="20" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="BjOwXZ5_tBpsX8csRp6H-19" value="video_receiver_" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BjOwXZ5_tBpsX8csRp6H-18">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BjOwXZ5_tBpsX8csRp6H-54" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="BjOwXZ5_tBpsX8csRp6H-18" target="oels3gxaZfTVbQsCMZHU-78">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -2151,11 +2157,11 @@
             <mxPoint x="190" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BjOwXZ5_tBpsX8csRp6H-20" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BjOwXZ5_tBpsX8csRp6H-18">
-          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        <mxCell id="BjOwXZ5_tBpsX8csRp6H-20" value="incoming_video_stream_" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BjOwXZ5_tBpsX8csRp6H-18">
+          <mxGeometry y="52" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BjOwXZ5_tBpsX8csRp6H-21" value="FrameToRender" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BjOwXZ5_tBpsX8csRp6H-18">
-          <mxGeometry y="78" width="140" height="26" as="geometry" />
+          <mxGeometry y="78" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BjOwXZ5_tBpsX8csRp6H-23" value="VCMDecoderDataBase" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-3200" y="4920" width="280" height="138" as="geometry" />
@@ -2263,6 +2269,12 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-2480" y="5020" as="sourcePoint" />
             <mxPoint x="-2320" y="5020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BjOwXZ5_tBpsX8csRp6H-60" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="BjOwXZ5_tBpsX8csRp6H-17" target="BjOwXZ5_tBpsX8csRp6H-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-2810" y="4668" as="sourcePoint" />
+            <mxPoint x="-2650" y="4668" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
